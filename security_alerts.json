@@ -1,0 +1,172 @@
+{
+    "generated_at": "2026-01-21 01:20:47",
+    "total_alerts": 14,
+    "summary": {
+        "total_alerts": 14,
+        "by_severity": {
+            "CRITICAL": 0,
+            "HIGH": 0,
+            "MEDIUM": 14,
+            "LOW": 0
+        },
+        "by_type": {
+            "Suspicious Service Configuration": 14
+        }
+    },
+    "alerts": [
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "aspnet_state",
+            "display_name": "ASP.NET State Service",
+            "path": "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\aspnet_state.exe",
+            "state": "STOPPED",
+            "startup_type": "MANUAL",
+            "description": "Service in unusual location",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "FontCache3.0.0.0",
+            "display_name": "Windows Presentation Foundation Font Cache 3.0.0.0",
+            "path": "C:\\WINDOWS\\Microsoft.Net\\Framework64\\v3.0\\WPF\\PresentationFontCache.exe",
+            "state": "STOPPED",
+            "startup_type": "MANUAL",
+            "description": "Service in unusual location",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "MDCoreSvc",
+            "display_name": "Microsoft Defender Core Service",
+            "path": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25050.5-0\\MpDefenderCoreService.exe\"",
+            "state": "STOPPED",
+            "startup_type": "MANUAL",
+            "description": "Service running from suspicious location: C:\\ProgramData\\",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "NetTcpPortSharing",
+            "display_name": "Net.Tcp Port Sharing Service",
+            "path": "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\SMSvcHost.exe",
+            "state": "STOPPED",
+            "startup_type": "DISABLED",
+            "description": "Service in unusual location",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "NVDisplay.ContainerLocalSystem",
+            "display_name": "NVIDIA Display Container LS",
+            "path": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvhm.inf_amd64_3cb6b4743249e01c\\Display.NvContainer\\NVDisplay.Container.exe -s NVDisplay.ContainerLocalSystem -f C:\\ProgramData\\NVIDIA\\NVDisplay.ContainerLocalSystem.log -l 3 -d C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvhm.inf_amd64_3cb6b4743249e01c\\Display.NvContainer\\plugins\\LocalSystem -r -p 30000 -cfg NVDisplay.ContainerLocalSystem\\LocalSystem /ert",
+            "state": "RUNNING",
+            "startup_type": "AUTO",
+            "description": "Service running from suspicious location: C:\\ProgramData\\",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "Rockstar Service",
+            "display_name": "Rockstar Game Library Service",
+            "path": "\"D:\\Launcher\\RockstarService.exe\"",
+            "state": "STOPPED",
+            "startup_type": "MANUAL",
+            "description": "Service in unusual location",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "RtkBtManServ",
+            "display_name": "Realtek Bluetooth Device Manager Service",
+            "path": "C:\\WINDOWS\\RtkBtManServ.exe",
+            "state": "RUNNING",
+            "startup_type": "AUTO",
+            "description": "Service in unusual location",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "TeraBoxUtility",
+            "display_name": "TeraBoxUtility",
+            "path": "C:\\Users\\HARSH\\AppData\\Roaming\\TeraBox\\YunUtilityService.exe",
+            "state": "STOPPED",
+            "startup_type": "MANUAL",
+            "description": "Service running from suspicious location: \\AppData\\",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "TrustedInstaller",
+            "display_name": "Windows Modules Installer",
+            "path": "C:\\WINDOWS\\servicing\\TrustedInstaller.exe",
+            "state": "STOPPED",
+            "startup_type": "MANUAL",
+            "description": "Service in unusual location",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "VMAuthdService",
+            "display_name": "VMware Authorization Service",
+            "path": "D:\\Vm\\vmware-authd.exe",
+            "state": "RUNNING",
+            "startup_type": "AUTO",
+            "description": "Service in unusual location",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "wampapache",
+            "display_name": "wampapache",
+            "path": "\"c:\\wamp\\bin\\apache\\apache2.2.8\\bin\\httpd.exe\" -k runservice",
+            "state": "STOPPED",
+            "startup_type": "MANUAL",
+            "description": "Service in unusual location",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "wampmysqld",
+            "display_name": "wampmysqld",
+            "path": "c:\\wamp\\bin\\mysql\\mysql5.0.51b\\bin\\mysqld-nt.exe wampmysqld",
+            "state": "STOPPED",
+            "startup_type": "MANUAL",
+            "description": "Service in unusual location",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "WdNisSvc",
+            "display_name": "Microsoft Defender Antivirus Network Inspection Service",
+            "path": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25050.5-0\\NisSrv.exe\"",
+            "state": "STOPPED",
+            "startup_type": "MANUAL",
+            "description": "Service running from suspicious location: C:\\ProgramData\\",
+            "timestamp": "2026-01-21 01:20:47"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "WinDefend",
+            "display_name": "Microsoft Defender Antivirus Service",
+            "path": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25050.5-0\\MsMpEng.exe\"",
+            "state": "STOPPED",
+            "startup_type": "MANUAL",
+            "description": "Service running from suspicious location: C:\\ProgramData\\",
+            "timestamp": "2026-01-21 01:20:47"
+        }
+    ]
+}

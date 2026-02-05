@@ -1,0 +1,58 @@
+{
+    "generated_at": "2026-01-21 01:23:42",
+    "total_alerts": 4,
+    "summary": {
+        "total_alerts": 4,
+        "by_severity": {
+            "CRITICAL": 1,
+            "HIGH": 1,
+            "MEDIUM": 2,
+            "LOW": 0
+        },
+        "by_type": {
+            "High-Risk Process Detected": 1,
+            "Suspicious Parent-Child Relationship": 1,
+            "Suspicious Process Path": 1,
+            "Suspicious Service Configuration": 1
+        }
+    },
+    "alerts": [
+        {
+            "severity": "CRITICAL",
+            "type": "High-Risk Process Detected",
+            "process_name": "mimikatz.exe",
+            "pid": 1234,
+            "path": "C:\\Users\\Public\\mimikatz.exe",
+            "description": "Known credential dumping tool detected",
+            "timestamp": "2026-01-21 01:23:42"
+        },
+        {
+            "severity": "HIGH",
+            "type": "Suspicious Parent-Child Relationship",
+            "parent_name": "winword.exe",
+            "parent_pid": 5678,
+            "child_name": "powershell.exe",
+            "child_pid": 9012,
+            "description": "Microsoft Word spawned PowerShell - Potential macro malware",
+            "timestamp": "2026-01-21 01:23:42"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Process Path",
+            "process_name": "update.exe",
+            "pid": 3456,
+            "path": "C:\\Windows\\Temp\\update.exe",
+            "description": "Process running from temporary directory",
+            "timestamp": "2026-01-21 01:23:42"
+        },
+        {
+            "severity": "MEDIUM",
+            "type": "Suspicious Service Configuration",
+            "service_name": "MysteryService",
+            "display_name": "Mystery Background Service",
+            "path": "C:\\ProgramData\\unknown\\service.exe",
+            "description": "Service running from unusual location",
+            "timestamp": "2026-01-21 01:23:42"
+        }
+    ]
+}

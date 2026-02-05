@@ -1,0 +1,39 @@
+# Windows Security Monitoring Agent
+# Python Dependencies
+
+# Core Process Monitoring
+psutil>=5.9.0
+
+# Windows Service Management
+pywin32>=305
+
+# Windows Management Interface
+wmi>=1.5.1
+
+# Web Dashboard
+Flask>=2.3.0
+
+# Date/Time Handling (built-in, but specified for completeness)
+# datetime - built-in
+
+# JSON Handling (built-in)
+# json - built-in
+
+# Threading (built-in)
+# threading - built-in
+
+# Optional: For enhanced features
+# Uncomment if you want to use these features
+
+# For PDF generation (optional)
+# weasyprint>=59.0
+
+# For advanced reporting (optional)
+# matplotlib>=3.7.0
+# pandas>=2.0.0
+
+# For VirusTotal API integration (optional)
+# requests>=2.31.0
+
+# For email alerts (optional)
+# smtplib - built-in
