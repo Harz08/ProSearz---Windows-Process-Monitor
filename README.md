@@ -1,4 +1,4 @@
-# 🔒 Windows Security Monitoring Agent
+# 🔒 Windows Security Monitoring Agent 
 
 **Professional-grade security monitoring tool for Windows systems**
 
@@ -9,7 +9,7 @@
 
 ## 📋 Overview
 
-A comprehensive security monitoring agent designed to detect malicious processes, suspicious service configurations, and potential security threats on Windows systems. Built with real-time scanning, advanced threat detection, and an intuitive web-based dashboard.
+A comprehensive security monitoring agent designed to detect malicious processes, suspicious service configurations, and potential security threats on Windows systems. Built with real-time scanning, advanced threat detection, and an intuitive web-based dashboard. This tool is currently under development for new features & may fell a bit buggy sometimes so please feedback for any issues
 
 ## ✨ Key Features
 
@@ -259,7 +259,7 @@ This tool is designed for:
 
 This tool is for **educational and authorized security testing only**. Users are responsible for compliance with applicable laws and regulations. The authors assume no liability for misuse or damage caused by this tool.
 
-## 🗺️ Roadmap
+## 🗺️ Roadmap / Future Scope
 
 - [ ] Real-time monitoring mode
 - [ ] Machine learning threat detection
