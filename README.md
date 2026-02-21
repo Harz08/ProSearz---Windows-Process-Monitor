@@ -64,7 +64,7 @@ A comprehensive security monitoring agent designed to detect malicious processes
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/windows-security-monitor.git
+git clone https://github.com/Harz08/windows-security-monitor.git
 cd windows-security-monitor
 ```
 
